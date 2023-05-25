@@ -1,20 +1,31 @@
 .message {
-
+border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 20px;
+    width: 70%;
+margin-right: auto;
 }
 
 .imageAndText {
+    position: relative;
+    text-align: left;
 
 }
 
 .imageAndText img {
-    width: 50px;
-    height: 50px;
+    float: left;
+    max-width: 40px;
+    width: 80%;
+    margin-left: 5px;
+    border-radius: 50%;
 }
 
 .text {
-    font-size: 16px;
+    font-size: 15px;
     color: #0059b3;
-    line-height: 34px;
+    line-height: 18px;
 }
 
 .text:after {
@@ -22,15 +33,18 @@
 }
 
 .name {
-    font-size: 26px;
+    font-size: 16px;
     color: #cc0000;
-    line-height: 44px;
+    line-height: 17px;
+    margin-left: 60px;
 }
 
 .messageText {
-
+margin-left: 60px;
 }
 
 .time {
-
+    float: right;
+    color: #999;
+    font-size: 12px;
 }
