@@ -51,6 +51,7 @@ function Affairs(props: AffairsPropsType) {
                 >
                     All
                 </button>
+                
                 <button
                     id={'hw2-button-high'}
                     onClick={setHigh}
