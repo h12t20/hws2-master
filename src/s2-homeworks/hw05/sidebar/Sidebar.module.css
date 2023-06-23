@@ -1,25 +1,70 @@
 .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
 .sidebar.open {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 40px;
+    display: block;
+    float: left;
+    grid-template-rows: 2fr 5fr;
+    background: white;
 }
 
 .background {
+    background: #666666;
+
+
 }
 
 .nav {
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+
 }
 
 .nav a {
+    filter: opacity(100%);
 }
 
 .nav a:hover {
+    filter: opacity(130%);
+    border-color: deeppink;
 }
 
 .nav a.active {
+    filter: opacity(85%);
+
 }
 .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+
 }
 
 .close img {
+border: none;
+    position: fixed;
+    margin-left: 14%;
+
+}
+.active {
+
 }

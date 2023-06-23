@@ -1,8 +1,14 @@
 .burgerMenuIcon {
+    display: grid;
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 2fr auto;
+    font-size: 14px;
 }
 
 .header h1 {
+    padding-right: 20px;
+    text-align: right;
 }
