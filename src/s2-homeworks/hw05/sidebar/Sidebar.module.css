@@ -24,8 +24,8 @@
 }
 
 .background {
+    float: right;
     background: #666666;
-
 
 }
 
@@ -39,7 +39,7 @@
 }
 
 .nav a {
-    filter: opacity(100%);
+
 }
 
 .nav a:hover {
@@ -48,7 +48,7 @@
 }
 
 .nav a.active {
-    filter: opacity(85%);
+
 
 }
 .close {
@@ -60,11 +60,15 @@
 }
 
 .close img {
-border: none;
+    border: none;
     position: fixed;
     margin-left: 14%;
 
 }
 .active {
-
+    padding: 8px 8px 8px 30px;
+    font-size: 24px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
 }

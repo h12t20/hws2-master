@@ -1,24 +1,25 @@
 .friendMessage {
     border: 2px solid #dedede;
-    background-color: #bdbdbd;
+    background-color: #f1f1f1;
     border-radius: 10px;
     padding: 15px;
-    margin: 20px 20px;
+
     width: 70%;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 .friendImageAndText {
     position: relative;
-    text-align: left;
+    text-align: right;
 }
 
 .friendImageAndText img {
-    float: left;
+    float: right;
     max-width: 40px;
     width: 80%;
-    margin-right: 20px;
+    margin-left: 5px;
     border-radius: 50%;
+
 }
 
 .friendText {
@@ -37,9 +38,11 @@
     font-size: 16px;
     color: #cc0000;
     line-height: 17px;
+    margin-left: 60px;
 }
 
 .friendMessageText {
+    margin-left: 70px;
 
 }
 
