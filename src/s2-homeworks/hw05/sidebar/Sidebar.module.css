@@ -7,7 +7,7 @@
     background-color: lightblue;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .sidebar.open {
@@ -19,23 +19,22 @@
     padding-top: 40px;
     display: block;
     float: left;
-    grid-template-rows: 2fr 5fr;
+
     background: white;
 }
 
 .background {
-    float: right;
+color: deeppink;
     background: #666666;
 
 }
 
 .nav {
-    padding: 8px 8px 8px 30px;
-    font-size: 24px;
-    display: block;
+display: block;
+    font-size: 20px;
     transition: 0.5s;
     cursor: pointer;
-
+    text-align: left;
 }
 
 .nav a {
@@ -48,13 +47,12 @@
 }
 
 .nav a.active {
-
+    filter: opacity(80%);
 
 }
 .close {
     position: absolute;
     top: 0;
-    right: 25px;
     font-size: 36px;
 
 }
@@ -66,8 +64,7 @@
 
 }
 .active {
-    padding: 8px 8px 8px 30px;
-    font-size: 24px;
+    font-size: 20px;
     display: block;
     transition: 0.5s;
     cursor: pointer;

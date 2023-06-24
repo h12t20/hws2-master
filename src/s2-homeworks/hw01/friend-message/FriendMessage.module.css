@@ -3,7 +3,7 @@
     background-color: #f1f1f1;
     border-radius: 10px;
     padding: 15px;
-
+float: right;
     width: 70%;
     margin-right: auto;
 }
@@ -16,7 +16,7 @@
 .friendImageAndText img {
     float: right;
     max-width: 40px;
-    width: 80%;
+    width: 60%;
     margin-left: 5px;
     border-radius: 50%;
 
@@ -42,7 +42,7 @@
 }
 
 .friendMessageText {
-    margin-left: 70px;
+    margin-left: 170px;
 
 }
 
