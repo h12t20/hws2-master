@@ -11,14 +11,16 @@
 }
 
 .sidebar.open {
+
     height: 100%;
     width: 150px;
     position: fixed;
     top: 0;
     left: 0;
     padding-top: 40px;
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: column;
+
 
     background: white;
 }
@@ -30,14 +32,18 @@ color: deeppink;
 }
 
 .nav {
-display: block;
-    font-size: 20px;
+display: flex;
+    flex-direction: column;
+    font-size: 30px;
     transition: 0.5s;
     cursor: pointer;
     text-align: left;
 }
 
 .nav a {
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: none;
 
 }
 
@@ -64,8 +70,7 @@ display: block;
 
 }
 .active {
-    font-size: 20px;
-    display: block;
+    font-size: 30px;
     transition: 0.5s;
     cursor: pointer;
 }
