@@ -1,11 +1,13 @@
 .burgerMenuIcon {
     display: grid;
+    width: 35px;
 }
 
 .header {
     display: grid;
     grid-template-columns: 2fr auto;
     font-size: 14px;
+    background-color: #bdbdbd;
 }
 
 .header h1 {

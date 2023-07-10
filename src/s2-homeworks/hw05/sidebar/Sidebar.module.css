@@ -20,13 +20,11 @@
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-
-
     background: white;
 }
 
 .background {
-    filter: brightness(70%);
+    filter: brightness(30%);
     background-color: #999999;
 
 }
