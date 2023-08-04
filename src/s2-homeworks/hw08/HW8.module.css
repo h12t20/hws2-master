@@ -1,23 +1,36 @@
 .item {
+    width:200px;
+    font-size: 18px;
+    height: 40px;
+
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+
+
 }
 
 .buttonsContainer {
 }
 
 .container {
+
 }
 
 .thead {
+    background-color: #999999;
 }
 
 .nameCol {
+    width:200px;
+
 }
 
 .ageCol {
+
 }
