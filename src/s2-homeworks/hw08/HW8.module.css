@@ -11,26 +11,30 @@
 }
 
 .users {
-
+margin-top: 20px;
 
 }
 
 .buttonsContainer {
+    width:400px
 }
 
 .container {
-
+margin-top: 20px
 }
 
 .thead {
+    font-size: 20px;
     background-color: #999999;
 }
 
 .nameCol {
     width:200px;
+    border-bottom: 1px slategray solid;
 
 }
 
 .ageCol {
-
+width: 60px;
+    border-bottom: 1px slategray solid;
 }
