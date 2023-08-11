@@ -31,14 +31,14 @@ function Clock() {
     const timeR = (t: number) => t < 10 ? '0' + t : t;
     const stringTime = /*'date->time' || <br/> */`${timeR(date.getHours())}:${timeR(date.getMinutes())}:${timeR(date.getSeconds())}`
     // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01) // пишут студенты
-    const stringDate = /*'date->date' || <br/>*/ `${timeR(date.getDay())}:${timeR(date.getMonth())}:${timeR(date.getFullYear())}`
+    const stringDate = /*'date->date' || <br/>*/ `${timeR(date.getDate())}:${timeR(date.getMonth()+1)}:${timeR(date.getFullYear())}`
     // день.месяц.год (01.02.2022) // пишут студенты, варианты 01.02.0123/01.02.-123/01.02.12345 не рассматриваем
 
     // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
     const formatter1 = new Intl.DateTimeFormat('en-GB', {weekday: "long"});
     const formatter2 = new Intl.DateTimeFormat('en-GB', {month: "long"});
-    const stringDay = formatter1.format(date.getDay());/*'date->day' || <br/> */// пишут студенты
-    const stringMonth = formatter2.format(date.getMonth());/*'date->month' || <br/>*/
+    const stringDay = formatter1.format(date);/*'date->day' || <br/> */// пишут студенты
+    const stringMonth = formatter2.format(date);/*'date->month' || <br/>*/
    // пишут студенты
 
         return(
