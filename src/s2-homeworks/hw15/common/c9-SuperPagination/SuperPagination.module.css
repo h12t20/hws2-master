@@ -1,11 +1,15 @@
 .pagination {
     display: flex;
+    font-size: 18px;
 }
 
 .text1 {
+    display: flex;
+    font-size: 18px;
 
 }
 
 .text2 {
-
+    display: flex;
+    font-size: 18px;
 }
